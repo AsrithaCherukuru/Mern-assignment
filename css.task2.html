@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Navigation bar
+        </title>
+        <style>
+          .vertical{
+            float:left;
+            border:5px solid white;
+            margin-right:30px;
+          }
+          .vertical ul {
+            list-style-type: none;
+            margin-left:3px;
+            padding-left: 5px;
+            padding-top: 7px;
+            padding-right: 7px;
+            width: 180px;
+            border: 1px solid black;
+          }
+          .vertical li a {
+            display:block;
+            text-decoration: none;
+            padding: 10px;
+            color:blue;
+            background:lightblue;
+          }
+          .vertical li a:hover {
+            background-color: orange;
+            color:white;
+          }
+          #id1{
+            background-color:orange;
+            color:white;
+          }
+          .horizantal{
+            border:1px solid black;
+            padding-left:10px;
+            width:450px;
+            overflow:hidden;
+          }
+          .horizantal ul {
+            list-style-type: none;
+            padding:0;
+            width: 450px;
+            border: 1px solid white;
+            background:lightgrey;
+            text-align:center;
+            overflow:hidden;
+          }
+          .horizantal li a {
+            float:left;
+            border-right:1px solid blue;
+            display:block;
+            text-decoration: none;
+            padding: 15px 15px;
+            color:blue;
+            text-align:center;
+          }
+          .horizantal li a:hover {
+            background-color:grey;
+            color:white;
+          }
+          #id2{
+            background-color:grey;
+            color:white;
+          }
+          h2{
+            font-family:"Times New Roman";
+            
+          }
+        </style>
+    </head>
+    <body>
+        <h2>Vertical navigation bar</h2>
+        <div class="vertical">
+        <ul>
+            <li><a href="#" id="id1">Home</a></li>
+            <li><a href="#">Java</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">Html</a></li>
+            <li><a href="#">Bootstrap</a></li>    
+        </ul>
+        </div>
+        <h2>Horizantal navigation bar</h2>
+        <div class="horizantal"> 
+        <ul>
+            <li><a href="#" id="id2">Home</a></li>
+            <li><a href="#">Java</a></li>
+            <li><a href="#">Html</a></li>
+            <li><a href="#">CSS</a></li>
+              
+        </ul>
+        </div>
+    </body>
+</html>
